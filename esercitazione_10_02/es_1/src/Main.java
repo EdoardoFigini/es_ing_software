@@ -4,15 +4,15 @@ public class Main {
         int val2 = 5;
         Operazione op = new Add();
         int ris = op.risultato(val1, val2);
-        System.out.println(ris);
+        Stampa.Print(ris);
         op = new Sub();
         ris = op.risultato(val1, val2);
-        System.out.println(ris);
+        Stampa.Print(ris);
         op = new Div();
         float ris_div = op.risultato(val1, val2);
-        System.out.println(ris_div);
+        Stampa.Print(ris_div);
         op = new Mul();
         ris = op.risultato(val1, val2);
-        System.out.println(ris);
+        Stampa.Print(ris);
     }
 }
