@@ -17,7 +17,7 @@ public class Main {
         try {
             p1.setAge(190);
         } catch (VeryOldException | TooOldException e) {
-            System.out.println(e.toString());
+            throw new RuntimeException(e);
         } finally {
             System.out.println("End of program");
         }
